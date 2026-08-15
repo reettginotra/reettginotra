@@ -35,11 +35,11 @@ Most of my work lives somewhere between intelligent products, backend logic, pol
 ## Academic Sidequests
 
 <details>
-  <summary><b>Academic</b></summary>
+  <summary><b>Academic & Awards</b></summary>
   <br />
 
 - Current CGPA: **8.91**
-- Academic award/distinction: **[edit concise wording from resume here]**
+- Awarded **Full Fee Waiver for Classes 11 and 12** for exemplary academic performance.
 
 </details>
 
@@ -51,14 +51,7 @@ Most of my work lives somewhere between intelligent products, backend logic, pol
   Accepted; publication and venue details intentionally left easy to edit later.
 - **Machine Learning-Based Depression Detection from Text Using Hybrid Feature Engineering and Ensemble Models**  
   Accepted for presentation at **ICTIS 2026** and presented at the conference in **Bangkok**.
-
-</details>
-
-<details>
-  <summary><b>Research & Innovation</b></summary>
-  <br />
-
-- **INR 2.7 lakh MRB Seed Grant**
+- Awarded an **INR 2.7 lakh Manipal Research Board (MRB) Seed Grant** for research on AI-driven multimodal mental health risk assessment.
 - **Patent filing in progress**
 
 </details>
@@ -80,21 +73,27 @@ Most of my work lives somewhere between intelligent products, backend logic, pol
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=flat-square&logo=markdown&logoColor=white)
 
-**Frameworks / AI**
+**Frontend**
 
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+
+**Backend**
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+**AI / ML**
+
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-EC6B23?style=flat-square)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Transformers](https://img.shields.io/badge/Transformers-FFB000?style=flat-square)
 
-**Tools**
+**Tools & Workflow**
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
@@ -137,23 +136,15 @@ Most of my work lives somewhere between intelligent products, backend logic, pol
 ---
 
 <!-- CONNECT -->
-<!-- EDIT: Replace placeholder links below with your final public URLs. Keep unknown links obvious and editable instead of guessing. -->
+<!-- EDIT: Replace links below with your final public URLs. Keep this section simple, readable, and easy to update. -->
 ## Connect With Me
 
 <div align="center">
-  <a href="https://github.com/reettginotra">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  &nbsp;
-  <a href="https://linkedin.com/in/reet-ginotra">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  &nbsp;
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
-  <a href="https://leetcode.com/your-username">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" />
-  </a>
+  <a href="https://github.com/reettginotra">GitHub</a>
+  &nbsp;&bull;&nbsp;
+  <a href="https://www.linkedin.com/in/reet-ginotra-8074002b9/">LinkedIn</a>
+  &nbsp;&bull;&nbsp;
+  <a href="mailto:reetginotraa@gmail.com">Email</a>
+  &nbsp;&bull;&nbsp;
+  <a href="https://leetcode.com/u/disc_reet/">LeetCode</a>
 </div>
