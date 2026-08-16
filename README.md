@@ -3,7 +3,7 @@
 <div align="center">
   <img src="assets/banner.gif" width="100%" alt="Animated greeting banner" />
   <br /><br />
-  <h1>Hi there, I'm Reet Ginotra &#128075;</h1>
+  <h1>Myself Reet Ginotra &#128075;</h1>
   <p><b>AI/ML &times; Full-Stack Developer</b></p>
 </div>
 
