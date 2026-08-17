@@ -48,7 +48,7 @@ Most of my work lives somewhere between intelligent products, backend logic, pol
   <br />
 
 - **Acoustic Feature-Based Speech Depression Recognition Using Bidirectional LSTM and Transformer Architectures**  
-  Accepted; publication and venue details intentionally left easy to edit later.
+  Accepted Q1 level paper, applied for journal and is in progress
 - **Machine Learning-Based Depression Detection from Text Using Hybrid Feature Engineering and Ensemble Models**  
   Accepted for presentation at **ICTIS 2026** and presented at the conference in **Bangkok**.
 - Awarded an **INR 2.7 lakh Manipal Research Board (MRB) Seed Grant** for research on AI-driven multimodal mental health risk assessment.
