@@ -3,58 +3,18 @@
 <div align="center">
   <img src="assets/banner.gif" width="100%" alt="Animated greeting banner" />
   <br /><br />
-  <h1>Myself Reet Ginotra &#128075;</h1>
-  <p><b>AI/ML &times; Full-Stack Developer</b></p>
+  <h1>Hi, I am Reet Ginotra &#128075;</h1>
+  <p><b>Web &amp; AI/ML Developer</b></p>
+  <p>Welcome to my little corner of GitHub.</p>
 </div>
 
 ---
 
-<!-- ABOUT -->
-<!-- EDIT: Keep this section short and natural. Use 2-3 lines about what you build, explore, and enjoy working on. -->
-## About Me
-
-I enjoy building AI/ML systems, full-stack applications, and small experiments that turn interesting ideas into something real.
-Most of my work lives somewhere between intelligent products, backend logic, polished interfaces, and trying out new tools just to see what they can do.
-
----
-
-<!-- HIGHLIGHTS -->
-<!-- EDIT: Keep this section casual and human. Swap these short facts/interests in and out as your current vibe changes. -->
+<!-- INTRO -->
+<!-- EDIT: Keep this section short, warm, and a little selective. Let the projects say the rest. -->
 ## A Little About Me
 
-|  |  |
-| --- | --- |
-| :coffee: Usually building or tinkering with something | :brain: Curious about intelligent systems and how people use them |
-| :hammer_and_wrench: I like taking ideas from model to product | :computer: I genuinely enjoy problem solving and shipping side experiments |
-| :art: Always exploring new tools, workflows, and interfaces | :seedling: Still learning, still iterating, still making things better |
-
----
-
-<!-- ACADEMIC SIDEQUESTS -->
-<!-- EDIT: Keep academics and research tucked into these collapsible blocks. This is the only section meant for CGPA, publications, grants, patents, or academic distinctions. -->
-## Academic Sidequests
-
-<details>
-  <summary><b>Academic & Awards</b></summary>
-  <br />
-
-- Current CGPA: **8.91**
-- Awarded **Full Fee Waiver for Classes 11 and 12** for exemplary academic performance.
-
-</details>
-
-<details>
-  <summary><b>Research & Publications</b></summary>
-  <br />
-
-- **Acoustic Feature-Based Speech Depression Recognition Using Bidirectional LSTM and Transformer Architectures**  
-  Accepted Q1 level paper, applied for journal and is in progress
-- **Machine Learning-Based Depression Detection from Text Using Hybrid Feature Engineering and Ensemble Models**  
-  Accepted for presentation at **ICTIS 2026** and presented at the conference in **Bangkok**.
-- Awarded an **INR 2.7 lakh Manipal Research Board (MRB) Seed Grant** for research on AI-driven multimodal mental health risk assessment.
-- **Patent filing in progress**
-
-</details>
+I like keeping this part simple: &#127891; BTech CSE Student | Web &amp; AI/ML Developer. &#128161; Passionate about building practical, real-world tech projects. I enjoy turning ideas into things people can actually use, especially where web, backend, and AI come together, and I would rather let the work here do most of the talking.
 
 ---
 
@@ -119,7 +79,7 @@ Most of my work lives somewhere between intelligent products, backend logic, pol
   </picture>
   &nbsp;
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_mocha&hide_border=false" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_mocha&hide_border=false" />
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_latte&hide_border=false" />
     <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_mocha" alt="Top languages" />
   </picture>
@@ -127,7 +87,7 @@ Most of my work lives somewhere between intelligent products, backend logic, pol
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha&hide_border=false" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha&hide_border=false" />
     <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-latte&hide_border=false" />
     <img height="160" src="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha" alt="GitHub streak" />
   </picture>
