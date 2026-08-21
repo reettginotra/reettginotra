@@ -70,28 +70,21 @@ I like keeping this part simple: &#127891; BTech CSE Student | Web &amp; AI/ML D
 <!-- GITHUB ACTIVITY -->
 <!-- EDIT: Replace the username in the image URLs if your GitHub username changes. Keep the picture tags for light/dark mode support. -->
 ## GitHub Activity
+## GitHub Activity
 
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=reettginotra&show_icons=true&theme=catppuccin_mocha&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=reettginotra&show_icons=true&theme=catppuccin_latte&hide_border=false" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=reettginotra&show_icons=true&theme=catppuccin_mocha" alt="Reet's GitHub stats" />
-  </picture>
-  &nbsp;
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_mocha&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_latte&hide_border=false" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_mocha" alt="Top languages" />
-  </picture>
-</div>
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=reettginotra&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"
+    alt="GitHub stats for Reet Ginotra"
+  />
+</p>
 
-<div align="center">
-  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-latte&hide_border=false" />
-    <img height="160" src="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha" alt="GitHub streak" />
-  </picture>
-</div>
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=reettginotra&bg_color=0d1117&color=58a6ff&line=38bdae&point=f97316&area=true&hide_border=true"
+    alt="GitHub contribution graph for Reet Ginotra"
+  />
+</p>
 
 ---
 
