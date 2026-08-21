@@ -67,34 +67,6 @@
 
 ---
 
-<!-- GITHUB ACTIVITY -->
-<!-- EDIT: Replace the username in the image URLs if your GitHub username changes. Keep the picture tags for light/dark mode support. -->
-## GitHub Activity
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=reettginotra&show_icons=true&theme=catppuccin_mocha&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=reettginotra&show_icons=true&theme=catppuccin_latte&hide_border=false" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=reettginotra&show_icons=true&theme=catppuccin_mocha" alt="Reet's GitHub stats" />
-  </picture>
-  &nbsp;
-  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_mocha&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_latte&hide_border=false" />
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=reettginotra&layout=compact&theme=catppuccin_mocha" alt="Top languages" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-latte&hide_border=false" />
-    <img height="160" src="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha" alt="GitHub streak" />
-  </picture>
-</div>
-
----
-
 <!-- CONNECT -->
 <!-- EDIT: Replace links below with your final public URLs. Keep this section simple, readable, and easy to update. -->
 ## Connect With Me
