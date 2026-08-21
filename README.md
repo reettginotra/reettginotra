@@ -68,7 +68,7 @@
 ---
 
 <!-- GITHUB ACTIVITY -->
-<!-- EDIT: Replace the username in the stats URLs if your GitHub username changes. The activity card below is generated into assets/github-activity-card.svg by GitHub Actions. -->
+<!-- EDIT: Replace the username in the image URLs if your GitHub username changes. Keep the picture tags for light/dark mode support. -->
 ## GitHub Activity
 
 <div align="center">
@@ -86,7 +86,11 @@
 </div>
 
 <div align="center">
-  <img src="assets/github-activity-card.svg" alt="GitHub activity snapshot" />
+  <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha&hide_border=false" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-latte&hide_border=false" />
+    <img height="160" src="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha" alt="GitHub streak" />
+  </picture>
 </div>
 
 ---
