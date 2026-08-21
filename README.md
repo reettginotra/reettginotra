@@ -14,7 +14,7 @@
 <!-- EDIT: Keep this section short, warm, and a little selective. Let the projects say the rest. -->
 ## A Little About Me
 
-I like keeping this part simple: &#127891; BTech CSE Student | Web &amp; AI/ML Developer. &#128161; Passionate about building practical, real-world tech projects. I enjoy turning ideas into things people can actually use, especially where web, backend, and AI come together, and I would rather let the work here do most of the talking.
+ BTech CSE Student | Web &amp; AI/ML Developer. &#128161; Passionate about building practical, real-world tech projects. I enjoy turning ideas into things people can actually use, especially where web, backend, and AI come together, and I would rather let the work here do most of the talking.
 
 ---
 
@@ -68,7 +68,7 @@ I like keeping this part simple: &#127891; BTech CSE Student | Web &amp; AI/ML D
 ---
 
 <!-- GITHUB ACTIVITY -->
-<!-- EDIT: Replace the username in the image URLs if your GitHub username changes. Keep the picture tags for light/dark mode support. -->
+<!-- EDIT: Replace the username in the stats URLs if your GitHub username changes. The activity card below is generated into assets/github-activity-card.svg by GitHub Actions. -->
 ## GitHub Activity
 
 <div align="center">
@@ -86,11 +86,7 @@ I like keeping this part simple: &#127891; BTech CSE Student | Web &amp; AI/ML D
 </div>
 
 <div align="center">
-  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha&hide_border=false" />
-    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-latte&hide_border=false" />
-    <img height="160" src="https://streak-stats.demolab.com/?user=reettginotra&theme=catppuccin-mocha" alt="GitHub streak" />
-  </picture>
+  <img src="assets/github-activity-card.svg" alt="GitHub activity snapshot" />
 </div>
 
 ---
