@@ -1,6 +1,6 @@
 <!-- HERO -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=14,19,24,25,30&text=Reet%20Ginotra&fontColor=ffffff&fontSize=54&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20%7C%20Product&descAlignY=58&descSize=18" width="100%" alt="Dynamic blue and green profile banner" />
+  <img src="assets/banner-placeholder.svg" width="100%" alt="Custom blue and green fintech-inspired profile banner" />
 </div>
 
 <div align="center">
