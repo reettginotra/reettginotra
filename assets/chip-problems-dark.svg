@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="316" height="36" viewBox="0 0 316 36" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="251" height="36" viewBox="0 0 251 36" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Solving real problems with code</title>
   <desc id="desc">Soft blue badge that says solving real problems with code.</desc>
-  <rect x="0.75" y="0.75" width="314.5" height="34.5" rx="17.25" fill="#7DD3FC" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.32" stroke-width="1.5" />
+  <rect x="0.75" y="0.75" width="249.5" height="34.5" rx="17.25" fill="#7DD3FC" fill-opacity="0.12" stroke="#38BDF8" stroke-opacity="0.32" stroke-width="1.5" />
   <circle cx="20" cy="18" r="8.25" stroke="#BAE6FD" stroke-opacity="0.42" stroke-width="1.2" />
   <circle cx="20" cy="18" r="4.8" stroke="#BAE6FD" stroke-opacity="0.65" stroke-width="1.2" />
   <circle cx="20" cy="18" r="2.1" fill="#BAE6FD" />
