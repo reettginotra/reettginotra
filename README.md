@@ -74,7 +74,11 @@ Have an idea worth building? **Let's talk ->**
 ## GitHub Statistics
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=reettginotra&theme=default&hide_border=true&ring=0EA5E9&fire=14B8A6&currStreakLabel=0EA5E9&sideLabels=0F172A&dates=475569" alt="GitHub streak stats" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=reettginotra&theme=dark&hide_border=true&ring=0EA5E9&fire=14B8A6&currStreakLabel=0EA5E9&sideLabels=E2E8F0&dates=CBD5E1&background=00000000" />
+    <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=reettginotra&theme=default&hide_border=true&ring=0EA5E9&fire=14B8A6&currStreakLabel=0EA5E9&sideLabels=0F172A&dates=475569&background=00000000" />
+    <img src="https://streak-stats.demolab.com?user=reettginotra&theme=default&hide_border=true&ring=0EA5E9&fire=14B8A6&currStreakLabel=0EA5E9&sideLabels=0F172A&dates=475569" alt="GitHub streak stats" />
+  </picture>
   <br /><br />
   <img src="https://komarev.com/ghpvc/?username=reettginotra&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
   <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-14B8A6?style=for-the-badge" alt="Focus area" />
