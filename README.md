@@ -1,10 +1,10 @@
 <!-- HERO -->
-<!-- GitHub strips inline CSS/script from README HTML, so the glow and cursor blink are embedded as SVG SMIL animations. -->
-<!-- Theme-specific SVGs are swapped with <picture> so the dark halo is tuned for GitHub's #0d1117 background. -->
+<!-- GitHub strips inline CSS/script from README HTML, so the typing cursor stays inside the SVG as SMIL. -->
+<!-- Theme-specific SVGs are swapped with <picture> so text and chip colors stay balanced in light and dark mode. -->
 <div align="center">
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-halo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/hero-halo-light.svg"><img src="assets/hero-halo.svg" width="560" alt="Reet Ginotra with a soft animated halo and subtitle" /></picture><br />
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tagline-pill-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/tagline-pill-light.svg"><img src="assets/tagline-pill.svg" width="540" alt="Animated feat line about Reet Ginotra's work" /></picture><br />
-  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/chips-row-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/chips-row-light.svg"><img src="assets/chips-row.svg" width="560" alt="Focus, stack, and pronoun badges" /></picture>
+  <div><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-halo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/hero-halo-light.svg"><img src="assets/hero-halo.svg" width="520" alt="Reet Ginotra name and subtitle" /></picture></div>
+  <div><picture><source media="(prefers-color-scheme: dark)" srcset="assets/tagline-pill-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/tagline-pill-light.svg"><img src="assets/tagline-pill.svg" width="540" alt="Animated feat line about Reet Ginotra's work" /></picture></div>
+  <div><picture><source media="(prefers-color-scheme: dark)" srcset="assets/chips-row-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/chips-row-light.svg"><img src="assets/chips-row.svg" width="540" alt="Focus, stack, and pronoun badges" /></picture></div>
 </div>
 
 ---
