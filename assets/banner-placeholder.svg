@@ -1,98 +1,58 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#04111d" />
-      <stop offset="45%" stop-color="#0f3d56" />
-      <stop offset="100%" stop-color="#0b6e6b" />
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="52%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#311042" />
     </linearGradient>
     <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#dff7ff" />
-      <stop offset="50%" stop-color="#7dd3fc" />
-      <stop offset="100%" stop-color="#7cefd7" />
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="45%" stop-color="#93c5fd" />
+      <stop offset="100%" stop-color="#c4b5fd" />
     </linearGradient>
-    <linearGradient id="signalA" x1="250" y1="95" x2="960" y2="95" gradientUnits="userSpaceOnUse">
+    <linearGradient id="flowA" x1="170" y1="98" x2="1030" y2="98" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="35%" stop-color="#7dd3fc" stop-opacity="0.55" />
-      <stop offset="65%" stop-color="#5eead4" stop-opacity="0.6" />
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0" />
+      <stop offset="35%" stop-color="#60a5fa" stop-opacity="0.12" />
+      <stop offset="65%" stop-color="#a78bfa" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="signalB" x1="180" y1="145" x2="1020" y2="145" gradientUnits="userSpaceOnUse">
+    <linearGradient id="flowB" x1="130" y1="144" x2="1070" y2="144" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.42" />
-      <stop offset="70%" stop-color="#2dd4bf" stop-opacity="0.45" />
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0" />
+      <stop offset="40%" stop-color="#7dd3fc" stop-opacity="0.1" />
+      <stop offset="72%" stop-color="#c4b5fd" stop-opacity="0.12" />
+      <stop offset="100%" stop-color="#d8b4fe" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="signalC" x1="260" y1="185" x2="945" y2="185" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="28%" stop-color="#67e8f9" stop-opacity="0.35" />
-      <stop offset="72%" stop-color="#5eead4" stop-opacity="0.4" />
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0" />
+    <linearGradient id="flowC" x1="200" y1="186" x2="1000" y2="186" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0" />
+      <stop offset="38%" stop-color="#60a5fa" stop-opacity="0.08" />
+      <stop offset="70%" stop-color="#a78bfa" stop-opacity="0.11" />
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
     </linearGradient>
-    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#2dd4bf" stop-opacity="0.28" />
-    </linearGradient>
-    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#0b2537" stop-opacity="0.88" />
-      <stop offset="100%" stop-color="#0d3d49" stop-opacity="0.88" />
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M 36 0 L 0 0 0 36" fill="none" stroke="#D9F7FF10" stroke-width="1" />
-    </pattern>
-    <pattern id="microGrid" width="12" height="12" patternUnits="userSpaceOnUse">
-      <circle cx="1" cy="1" r="0.6" fill="#E0F2FE08" />
-    </pattern>
-    <filter id="lineGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
-      <feMerge>
-        <feMergeNode in="blur" />
-        <feMergeNode in="SourceGraphic" />
-      </feMerge>
+    <filter id="softFlow" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" />
     </filter>
-    <filter id="softBlur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="18" />
+    <filter id="ambientBlur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="34" />
     </filter>
   </defs>
 
-  <rect width="1200" height="300" rx="20" fill="url(#bgGrad)" />
-  <rect width="1200" height="300" rx="20" fill="url(#grid)" />
-  <rect width="1200" height="300" rx="20" fill="url(#microGrid)" />
+  <rect width="1200" height="300" rx="16" fill="url(#bgGrad)" />
 
-  <circle cx="145" cy="62" r="120" fill="#38bdf8" fill-opacity="0.08" filter="url(#softBlur)" />
-  <circle cx="1045" cy="232" r="138" fill="#2dd4bf" fill-opacity="0.07" filter="url(#softBlur)" />
+  <ellipse cx="170" cy="72" rx="170" ry="110" fill="#38bdf8" fill-opacity="0.06" filter="url(#ambientBlur)" />
+  <ellipse cx="1010" cy="232" rx="220" ry="126" fill="#a78bfa" fill-opacity="0.08" filter="url(#ambientBlur)" />
+
+  <g filter="url(#softFlow)">
+    <path d="M108 108C226 78 334 73 456 88C560 100 659 118 770 115C879 113 967 91 1092 104" stroke="url(#flowA)" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M82 146C192 160 315 165 437 153C552 141 645 122 756 124C879 126 980 148 1118 166" stroke="url(#flowB)" stroke-width="1.7" stroke-linecap="round" />
+    <path d="M148 188C257 169 360 165 468 173C592 182 711 196 831 190C924 186 1005 172 1070 154" stroke="url(#flowC)" stroke-width="1.9" stroke-linecap="round" />
+    <path d="M256 96C310 124 361 136 432 140" stroke="#93c5fd" stroke-opacity="0.05" stroke-width="1.2" stroke-linecap="round" />
+    <path d="M770 154C836 148 896 127 956 92" stroke="#c4b5fd" stroke-opacity="0.06" stroke-width="1.2" stroke-linecap="round" />
+  </g>
 
   <path d="M0 220C120 190 210 180 310 192C410 204 495 239 604 239C721 239 793 184 898 174C1020 162 1101 196 1200 218V300H0V220Z" fill="#FFFFFF0D" />
-  <path d="M96 242H1104" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round" />
 
-  <g opacity="0.95" filter="url(#lineGlow)">
-    <path d="M170 120C285 94 390 92 518 112C605 126 704 131 818 114C904 101 980 96 1042 108" stroke="url(#signalA)" stroke-width="2.1" stroke-linecap="round" />
-    <path d="M142 144C276 160 380 164 492 151C612 136 712 122 830 132C925 140 998 155 1062 169" stroke="url(#signalB)" stroke-width="1.7" stroke-linecap="round" stroke-dasharray="2 8" />
-    <path d="M188 182C287 168 379 166 480 176C594 188 707 200 833 188C913 180 980 166 1035 150" stroke="url(#signalC)" stroke-width="1.8" stroke-linecap="round" />
-    <path d="M266 97L266 202" stroke="#7dd3fc" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="3 9" />
-    <path d="M935 90L935 202" stroke="#5eead4" stroke-opacity="0.12" stroke-width="1" stroke-dasharray="3 9" />
-  </g>
-
-  <g>
-    <circle cx="296" cy="101" r="3.5" fill="#7dd3fc" />
-    <circle cx="296" cy="101" r="8" stroke="#7dd3fc" stroke-opacity="0.24" />
-    <circle cx="474" cy="153" r="3" fill="#38bdf8" />
-    <circle cx="474" cy="153" r="7" stroke="#38bdf8" stroke-opacity="0.18" />
-    <circle cx="728" cy="126" r="3.5" fill="#99f6e4" />
-    <circle cx="728" cy="126" r="8" stroke="#99f6e4" stroke-opacity="0.18" />
-    <circle cx="874" cy="186" r="3" fill="#5eead4" />
-    <circle cx="874" cy="186" r="7" stroke="#5eead4" stroke-opacity="0.16" />
-    <circle cx="966" cy="111" r="3.5" fill="#67e8f9" />
-    <circle cx="966" cy="111" r="8" stroke="#67e8f9" stroke-opacity="0.2" />
-  </g>
-
-  <g>
-    <rect x="430" y="48" width="340" height="36" rx="18" fill="url(#badgeGrad)" stroke="#7DD3FC33" />
-    <text x="600" y="71" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2.4" fill="#C6F4FF">SOFTWARE | AI | PRODUCT</text>
-
-    <rect x="282" y="102" width="636" height="74" rx="37" fill="#071722" fill-opacity="0.16" stroke="#D8FBFF12" />
-    <text x="600" y="150" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-0.7" fill="url(#textGrad)">REET GINOTRA</text>
-
-    <text x="600" y="198" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#E0F2FE">Full Stack Developer building useful systems end to end</text>
-    <text x="600" y="228" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#CCFBF1">Focused on practical products, intelligent software, and seamless experiences</text>
+  <g text-anchor="middle">
+    <text x="600" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-0.6" fill="url(#textGrad)">REET GINOTRA</text>
+    <text x="600" y="196" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#cbd5ff">Full Stack Developer | AI | Product</text>
   </g>
 </svg>
