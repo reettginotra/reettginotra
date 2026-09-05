@@ -13,7 +13,7 @@
 
 I work across **software engineering**, **AI**, and **product**, turning ideas into practical tools people actually use. I am especially interested in **fintech**, building smarter financial products and simpler, more seamless experiences.
 
-Have an idea worth building? **Let's talk ->**
+Have an idea worth building? **Let's connect :**
 
 <div align="center">
   <a href="https://github.com/reettginotra"><img src="https://img.shields.io/badge/GitHub-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
