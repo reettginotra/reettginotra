@@ -5,31 +5,29 @@
       <stop offset="52%" stop-color="#1e1b4b" />
       <stop offset="100%" stop-color="#311042" />
     </linearGradient>
-    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#e0f2fe" />
-      <stop offset="45%" stop-color="#93c5fd" />
-      <stop offset="100%" stop-color="#c4b5fd" />
+    <linearGradient id="blobBase" x1="180" y1="108" x2="1020" y2="198" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="42%" stop-color="#4338ca" />
+      <stop offset="72%" stop-color="#6d28d9" />
+      <stop offset="100%" stop-color="#7c3aed" />
     </linearGradient>
-    <linearGradient id="flowA" x1="170" y1="98" x2="1030" y2="98" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="35%" stop-color="#60a5fa" stop-opacity="0.12" />
-      <stop offset="65%" stop-color="#a78bfa" stop-opacity="0.14" />
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    <linearGradient id="blobMid" x1="240" y1="102" x2="972" y2="188" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.92" />
+      <stop offset="45%" stop-color="#6366f1" stop-opacity="0.84" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0.86" />
     </linearGradient>
-    <linearGradient id="flowB" x1="130" y1="144" x2="1070" y2="144" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="40%" stop-color="#7dd3fc" stop-opacity="0.1" />
-      <stop offset="72%" stop-color="#c4b5fd" stop-opacity="0.12" />
-      <stop offset="100%" stop-color="#d8b4fe" stop-opacity="0" />
+    <linearGradient id="blobTop" x1="300" y1="100" x2="925" y2="152" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#bfdbfe" stop-opacity="0.16" />
+      <stop offset="50%" stop-color="#c4b5fd" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#e9d5ff" stop-opacity="0.14" />
     </linearGradient>
-    <linearGradient id="flowC" x1="200" y1="186" x2="1000" y2="186" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0" />
-      <stop offset="38%" stop-color="#60a5fa" stop-opacity="0.08" />
-      <stop offset="70%" stop-color="#a78bfa" stop-opacity="0.11" />
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
+    <linearGradient id="blobBottom" x1="252" y1="160" x2="945" y2="220" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.26" />
+      <stop offset="52%" stop-color="#4f46e5" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0.26" />
     </linearGradient>
-    <filter id="softFlow" x="-10%" y="-20%" width="120%" height="140%">
-      <feGaussianBlur stdDeviation="2.2" />
+    <filter id="blobGlow" x="-20%" y="-30%" width="140%" height="170%">
+      <feGaussianBlur stdDeviation="20" />
     </filter>
     <filter id="ambientBlur" x="-20%" y="-20%" width="140%" height="140%">
       <feGaussianBlur stdDeviation="34" />
@@ -38,21 +36,25 @@
 
   <rect width="1200" height="300" rx="16" fill="url(#bgGrad)" />
 
-  <ellipse cx="170" cy="72" rx="170" ry="110" fill="#38bdf8" fill-opacity="0.06" filter="url(#ambientBlur)" />
-  <ellipse cx="1010" cy="232" rx="220" ry="126" fill="#a78bfa" fill-opacity="0.08" filter="url(#ambientBlur)" />
+  <ellipse cx="190" cy="76" rx="170" ry="110" fill="#38bdf8" fill-opacity="0.05" filter="url(#ambientBlur)" />
+  <ellipse cx="1012" cy="228" rx="210" ry="122" fill="#a78bfa" fill-opacity="0.07" filter="url(#ambientBlur)" />
 
-  <g filter="url(#softFlow)">
-    <path d="M108 108C226 78 334 73 456 88C560 100 659 118 770 115C879 113 967 91 1092 104" stroke="url(#flowA)" stroke-width="2.2" stroke-linecap="round" />
-    <path d="M82 146C192 160 315 165 437 153C552 141 645 122 756 124C879 126 980 148 1118 166" stroke="url(#flowB)" stroke-width="1.7" stroke-linecap="round" />
-    <path d="M148 188C257 169 360 165 468 173C592 182 711 196 831 190C924 186 1005 172 1070 154" stroke="url(#flowC)" stroke-width="1.9" stroke-linecap="round" />
-    <path d="M256 96C310 124 361 136 432 140" stroke="#93c5fd" stroke-opacity="0.05" stroke-width="1.2" stroke-linecap="round" />
-    <path d="M770 154C836 148 896 127 956 92" stroke="#c4b5fd" stroke-opacity="0.06" stroke-width="1.2" stroke-linecap="round" />
+  <g filter="url(#blobGlow)" opacity="0.55">
+    <path d="M136 146C182 101 266 85 352 100C438 66 552 63 646 89C740 61 854 66 938 97C1004 92 1062 108 1094 138C1064 178 999 201 920 191C843 216 735 223 637 195C547 223 429 223 342 194C259 205 187 191 136 146Z" fill="#0f172a" />
   </g>
+
+  <path d="M124 144C175 99 260 84 346 100C435 67 550 64 643 90C736 61 850 65 934 98C1003 92 1060 108 1088 141C1056 181 991 201 914 192C837 217 731 224 635 196C545 223 429 223 342 194C257 206 182 191 124 144Z" fill="url(#blobBase)" />
+
+  <path d="M166 143C227 114 299 109 377 122C458 95 549 92 630 110C719 87 814 91 888 121C947 116 997 123 1032 142C993 170 935 181 873 171C796 190 706 196 623 178C542 198 446 201 373 183C299 192 229 181 166 143Z" fill="url(#blobMid)" />
+
+  <path d="M236 122C301 103 379 102 455 117C536 96 617 94 691 107C773 93 847 96 909 116C840 119 766 131 688 132C604 133 523 121 439 123C368 124 302 132 236 122Z" fill="url(#blobTop)" />
+
+  <path d="M228 174C298 186 378 187 455 176C539 165 624 164 708 175C782 184 855 187 924 178C857 201 782 212 697 210C610 208 529 197 443 201C366 204 293 197 228 174Z" fill="url(#blobBottom)" />
 
   <path d="M0 220C120 190 210 180 310 192C410 204 495 239 604 239C721 239 793 184 898 174C1020 162 1101 196 1200 218V300H0V220Z" fill="#FFFFFF0D" />
 
   <g text-anchor="middle">
-    <text x="600" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-0.6" fill="url(#textGrad)">REET GINOTRA</text>
-    <text x="600" y="196" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#cbd5ff">Full Stack Developer | AI | Product</text>
+    <text x="600" y="151" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-0.6" fill="#FFFFFF">Reet Ginotra</text>
+    <text x="600" y="196" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#DBEAFE">Full Stack Developer | AI | Product</text>
   </g>
 </svg>
