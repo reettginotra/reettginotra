@@ -1,6 +1,10 @@
 <!-- HERO -->
 <div align="center">
-  <img src="assets/banner-placeholder.svg" width="100%" alt="Transparent banner with flowing blue and green strings" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.gif" />
+    <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.gif" />
+    <img src="assets/banner-light.gif" width="100%" alt="Animated banner with electric blue, cyan, and green strands behind Reet Ginotra" />
+  </picture>
 </div>
 
 <div align="center">
