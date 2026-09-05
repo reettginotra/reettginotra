@@ -5,89 +5,42 @@
       <stop offset="52%" stop-color="#1e1b4b" />
       <stop offset="100%" stop-color="#311042" />
     </linearGradient>
-    <linearGradient id="lineA" x1="120" y1="112" x2="1080" y2="112" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="24%" stop-color="#67e8f9" stop-opacity="0.18" />
-      <stop offset="52%" stop-color="#2dd4bf" stop-opacity="0.2" />
-      <stop offset="78%" stop-color="#60a5fa" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient id="lineB" x1="90" y1="132" x2="1110" y2="132" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.12" />
-      <stop offset="62%" stop-color="#34d399" stop-opacity="0.14" />
-      <stop offset="100%" stop-color="#c4b5fd" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient id="lineC" x1="140" y1="154" x2="1060" y2="154" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#67e8f9" stop-opacity="0" />
-      <stop offset="28%" stop-color="#7dd3fc" stop-opacity="0.14" />
-      <stop offset="60%" stop-color="#2dd4bf" stop-opacity="0.16" />
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient id="lineD" x1="110" y1="176" x2="1090" y2="176" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0" />
-      <stop offset="35%" stop-color="#60a5fa" stop-opacity="0.1" />
-      <stop offset="68%" stop-color="#5eead4" stop-opacity="0.14" />
-      <stop offset="100%" stop-color="#c084fc" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient id="lineE" x1="150" y1="196" x2="1050" y2="196" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="30%" stop-color="#67e8f9" stop-opacity="0.08" />
-      <stop offset="58%" stop-color="#34d399" stop-opacity="0.11" />
-      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
-    </linearGradient>
-    <filter id="lineGlow" x="-20%" y="-30%" width="140%" height="180%">
-      <feGaussianBlur stdDeviation="2.4" />
-    </filter>
-    <filter id="ambientBlur" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="32" />
+    <filter id="strandGlow" x="-15%" y="-35%" width="130%" height="170%">
+      <feGaussianBlur stdDeviation="2.2" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
     </filter>
   </defs>
 
   <rect width="1200" height="300" rx="16" fill="url(#bgGrad)" />
 
-  <ellipse cx="176" cy="78" rx="156" ry="100" fill="#38bdf8" fill-opacity="0.05" filter="url(#ambientBlur)" />
-  <ellipse cx="1018" cy="224" rx="202" ry="118" fill="#8b5cf6" fill-opacity="0.06" filter="url(#ambientBlur)" />
-
-  <g filter="url(#lineGlow)">
-    <path d="M84 104C197 82 286 80 394 96C494 111 579 129 679 125C795 120 902 87 1119 100" stroke="url(#lineA)" stroke-width="1.6" stroke-linecap="round">
-      <animate attributeName="d" dur="18s" repeatCount="indefinite"
-        values="M84 104C197 82 286 80 394 96C494 111 579 129 679 125C795 120 902 87 1119 100;
-                M84 108C191 86 286 79 397 93C499 106 590 126 690 123C808 120 917 92 1119 104;
-                M84 104C197 82 286 80 394 96C494 111 579 129 679 125C795 120 902 87 1119 100" />
-      <animate attributeName="opacity" dur="12s" repeatCount="indefinite" values="0.9;0.65;0.9" />
-    </path>
-    <path d="M68 130C160 121 252 124 352 140C463 158 577 166 690 153C808 139 920 127 1136 142" stroke="url(#lineB)" stroke-width="1.1" stroke-linecap="round">
-      <animate attributeName="d" dur="21s" repeatCount="indefinite"
-        values="M68 130C160 121 252 124 352 140C463 158 577 166 690 153C808 139 920 127 1136 142;
-                M68 127C170 116 260 122 362 137C470 153 582 162 696 150C814 138 924 129 1136 146;
-                M68 130C160 121 252 124 352 140C463 158 577 166 690 153C808 139 920 127 1136 142" />
-      <animate attributeName="opacity" dur="14s" repeatCount="indefinite" values="0.8;0.55;0.8" />
-    </path>
-    <path d="M96 149C194 162 287 171 394 162C499 153 604 132 709 132C832 133 944 154 1102 170" stroke="url(#lineC)" stroke-width="1.4" stroke-linecap="round">
-      <animate attributeName="d" dur="19s" repeatCount="indefinite"
-        values="M96 149C194 162 287 171 394 162C499 153 604 132 709 132C832 133 944 154 1102 170;
-                M96 145C201 156 291 167 397 159C501 151 604 136 711 136C829 136 942 158 1102 174;
-                M96 149C194 162 287 171 394 162C499 153 604 132 709 132C832 133 944 154 1102 170" />
-      <animate attributeName="opacity" dur="15s" repeatCount="indefinite" values="0.78;0.5;0.78" />
-    </path>
-    <path d="M76 182C187 161 290 158 393 170C491 181 588 198 688 194C795 190 905 167 1123 150" stroke="url(#lineD)" stroke-width="1.25" stroke-linecap="round">
-      <animate attributeName="d" dur="22s" repeatCount="indefinite"
-        values="M76 182C187 161 290 158 393 170C491 181 588 198 688 194C795 190 905 167 1123 150;
-                M76 178C191 158 295 156 399 167C497 178 594 194 693 191C802 187 910 169 1123 154;
-                M76 182C187 161 290 158 393 170C491 181 588 198 688 194C795 190 905 167 1123 150" />
-      <animate attributeName="opacity" dur="13s" repeatCount="indefinite" values="0.72;0.48;0.72" />
-    </path>
-    <path d="M124 201C214 187 305 186 393 194C485 202 567 213 655 213C757 212 857 196 1048 176" stroke="url(#lineE)" stroke-width="0.95" stroke-linecap="round">
-      <animate attributeName="d" dur="24s" repeatCount="indefinite"
-        values="M124 201C214 187 305 186 393 194C485 202 567 213 655 213C757 212 857 196 1048 176;
-                M124 198C216 184 308 184 397 191C487 199 571 210 660 210C760 209 858 198 1048 180;
-                M124 201C214 187 305 186 393 194C485 202 567 213 655 213C757 212 857 196 1048 176" />
-      <animate attributeName="opacity" dur="16s" repeatCount="indefinite" values="0.62;0.38;0.62" />
-    </path>
+  <g filter="url(#strandGlow)">
+    <path d="M156 98C238 76 314 76 396 94C483 113 570 127 658 118C753 108 842 76 1042 100" stroke="#67E8F9" stroke-opacity="0.20" stroke-width="5.2" stroke-linecap="round" />
+    <path d="M144 112C222 96 303 97 385 114C480 135 575 148 671 137C769 127 864 98 1056 119" stroke="#38BDF8" stroke-opacity="0.15" stroke-width="4.6" stroke-linecap="round" />
+    <path d="M182 126C260 145 339 152 420 143C510 133 596 111 687 110C786 108 882 130 1020 156" stroke="#2DD4BF" stroke-opacity="0.16" stroke-width="4.8" stroke-linecap="round" />
+    <path d="M150 138C231 160 317 171 404 164C500 156 595 133 694 131C796 130 894 151 1058 176" stroke="#5EEAD4" stroke-opacity="0.13" stroke-width="4.4" stroke-linecap="round" />
+    <path d="M176 151C258 133 337 130 416 141C507 153 593 170 684 168C782 166 876 144 1028 126" stroke="#60A5FA" stroke-opacity="0.14" stroke-width="4.6" stroke-linecap="round" />
+    <path d="M164 164C243 182 326 191 411 186C501 180 591 161 685 159C784 156 883 171 1041 194" stroke="#22D3EE" stroke-opacity="0.13" stroke-width="4.5" stroke-linecap="round" />
+    <path d="M190 176C272 160 351 157 433 168C524 180 611 196 699 194C789 191 874 169 1012 149" stroke="#34D399" stroke-opacity="0.12" stroke-width="4.4" stroke-linecap="round" />
+    <path d="M170 188C246 208 329 220 415 216C505 211 593 190 684 186C784 182 884 194 1040 213" stroke="#67E8F9" stroke-opacity="0.11" stroke-width="4.2" stroke-linecap="round" />
+    <path d="M250 103C317 125 377 130 447 127C521 123 592 109 673 96" stroke="#2DD4BF" stroke-opacity="0.14" stroke-width="3.9" stroke-linecap="round" />
+    <path d="M696 198C773 195 845 181 930 154C974 140 1012 128 1051 122" stroke="#38BDF8" stroke-opacity="0.12" stroke-width="3.8" stroke-linecap="round" />
   </g>
 
-  <path d="M0 220C120 190 210 180 310 192C410 204 495 239 604 239C721 239 793 184 898 174C1020 162 1101 196 1200 218V300H0V220Z" fill="#FFFFFF0D" />
+  <g>
+    <path d="M156 98C238 76 314 76 396 94C483 113 570 127 658 118C753 108 842 76 1042 100" stroke="#67E8F9" stroke-opacity="0.72" stroke-width="2.2" stroke-linecap="round" />
+    <path d="M144 112C222 96 303 97 385 114C480 135 575 148 671 137C769 127 864 98 1056 119" stroke="#38BDF8" stroke-opacity="0.56" stroke-width="1.8" stroke-linecap="round" />
+    <path d="M182 126C260 145 339 152 420 143C510 133 596 111 687 110C786 108 882 130 1020 156" stroke="#2DD4BF" stroke-opacity="0.60" stroke-width="2" stroke-linecap="round" />
+    <path d="M150 138C231 160 317 171 404 164C500 156 595 133 694 131C796 130 894 151 1058 176" stroke="#5EEAD4" stroke-opacity="0.48" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M176 151C258 133 337 130 416 141C507 153 593 170 684 168C782 166 876 144 1028 126" stroke="#60A5FA" stroke-opacity="0.50" stroke-width="1.9" stroke-linecap="round" />
+    <path d="M164 164C243 182 326 191 411 186C501 180 591 161 685 159C784 156 883 171 1041 194" stroke="#22D3EE" stroke-opacity="0.46" stroke-width="1.7" stroke-linecap="round" />
+    <path d="M190 176C272 160 351 157 433 168C524 180 611 196 699 194C789 191 874 169 1012 149" stroke="#34D399" stroke-opacity="0.44" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M170 188C246 208 329 220 415 216C505 211 593 190 684 186C784 182 884 194 1040 213" stroke="#67E8F9" stroke-opacity="0.38" stroke-width="1.4" stroke-linecap="round" />
+    <path d="M250 103C317 125 377 130 447 127C521 123 592 109 673 96" stroke="#2DD4BF" stroke-opacity="0.40" stroke-width="1.3" stroke-linecap="round" />
+    <path d="M696 198C773 195 845 181 930 154C974 140 1012 128 1051 122" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.2" stroke-linecap="round" />
+  </g>
 
   <g text-anchor="middle">
     <text x="600" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-0.6" fill="#FFFFFF">Reet Ginotra</text>

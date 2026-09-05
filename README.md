@@ -1,6 +1,6 @@
 <!-- HERO -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/reettginotra/disc_reet/main/assets/banner-placeholder.svg" width="100%" alt="Blue to purple profile banner with flowing string effect" />
+  <img src="assets/banner-placeholder.svg" width="100%" alt="Blue to purple profile banner with flowing string effect" />
 </div>
 
 <div align="center">
