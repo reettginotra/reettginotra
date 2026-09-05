@@ -1,48 +1,31 @@
 <svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a" />
-      <stop offset="52%" stop-color="#1e1b4b" />
-      <stop offset="100%" stop-color="#311042" />
-    </linearGradient>
-    <filter id="strandGlow" x="-15%" y="-35%" width="130%" height="170%">
-      <feGaussianBlur stdDeviation="2.2" result="blur" />
+    <filter id="strandGlow" x="-20%" y="-25%" width="140%" height="150%">
+      <feGaussianBlur stdDeviation="1.6" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.38" />
+    </filter>
   </defs>
 
-  <rect width="1200" height="300" rx="16" fill="url(#bgGrad)" />
-
   <g filter="url(#strandGlow)">
-    <path d="M156 98C238 76 314 76 396 94C483 113 570 127 658 118C753 108 842 76 1042 100" stroke="#67E8F9" stroke-opacity="0.20" stroke-width="5.2" stroke-linecap="round" />
-    <path d="M144 112C222 96 303 97 385 114C480 135 575 148 671 137C769 127 864 98 1056 119" stroke="#38BDF8" stroke-opacity="0.15" stroke-width="4.6" stroke-linecap="round" />
-    <path d="M182 126C260 145 339 152 420 143C510 133 596 111 687 110C786 108 882 130 1020 156" stroke="#2DD4BF" stroke-opacity="0.16" stroke-width="4.8" stroke-linecap="round" />
-    <path d="M150 138C231 160 317 171 404 164C500 156 595 133 694 131C796 130 894 151 1058 176" stroke="#5EEAD4" stroke-opacity="0.13" stroke-width="4.4" stroke-linecap="round" />
-    <path d="M176 151C258 133 337 130 416 141C507 153 593 170 684 168C782 166 876 144 1028 126" stroke="#60A5FA" stroke-opacity="0.14" stroke-width="4.6" stroke-linecap="round" />
-    <path d="M164 164C243 182 326 191 411 186C501 180 591 161 685 159C784 156 883 171 1041 194" stroke="#22D3EE" stroke-opacity="0.13" stroke-width="4.5" stroke-linecap="round" />
-    <path d="M190 176C272 160 351 157 433 168C524 180 611 196 699 194C789 191 874 169 1012 149" stroke="#34D399" stroke-opacity="0.12" stroke-width="4.4" stroke-linecap="round" />
-    <path d="M170 188C246 208 329 220 415 216C505 211 593 190 684 186C784 182 884 194 1040 213" stroke="#67E8F9" stroke-opacity="0.11" stroke-width="4.2" stroke-linecap="round" />
-    <path d="M250 103C317 125 377 130 447 127C521 123 592 109 673 96" stroke="#2DD4BF" stroke-opacity="0.14" stroke-width="3.9" stroke-linecap="round" />
-    <path d="M696 198C773 195 845 181 930 154C974 140 1012 128 1051 122" stroke="#38BDF8" stroke-opacity="0.12" stroke-width="3.8" stroke-linecap="round" />
+    <path d="M190 116C252 78 309 79 364 114C412 145 456 160 517 146C584 130 639 89 704 94C762 99 803 140 865 156C925 171 982 155 1032 128" stroke="#67E8F9" stroke-opacity="0.72" stroke-width="2.1" stroke-linecap="round" />
+    <path d="M172 136C231 110 292 112 345 141C397 170 450 183 514 174C575 166 636 138 693 120C754 100 811 99 869 122C926 145 980 155 1049 144" stroke="#38BDF8" stroke-opacity="0.58" stroke-width="1.7" stroke-linecap="round" />
+    <path d="M206 96C268 121 320 145 375 150C438 155 493 131 551 109C610 87 668 72 730 83C789 93 834 124 892 141C950 159 1000 156 1054 136" stroke="#2DD4BF" stroke-opacity="0.62" stroke-width="1.9" stroke-linecap="round" />
+    <path d="M196 176C258 144 315 134 368 150C419 166 467 196 523 199C586 202 642 177 700 154C760 130 819 116 882 126C940 135 989 168 1038 192" stroke="#5EEAD4" stroke-opacity="0.50" stroke-width="1.55" stroke-linecap="round" />
+    <path d="M232 90C281 77 334 89 382 120C431 151 475 178 537 182C600 186 658 162 714 133C769 105 821 78 874 78C932 79 981 113 1026 147" stroke="#60A5FA" stroke-opacity="0.46" stroke-width="1.45" stroke-linecap="round" />
+    <path d="M214 199C269 169 325 161 381 173C436 185 489 213 547 219C609 224 667 204 721 179C773 156 823 140 878 144C937 148 984 177 1020 210" stroke="#22D3EE" stroke-opacity="0.42" stroke-width="1.35" stroke-linecap="round" />
+    <path d="M244 116C289 135 331 163 384 175C439 188 495 184 547 164C600 144 646 112 699 103C752 94 806 107 862 127C919 147 974 162 1028 157" stroke="#34D399" stroke-opacity="0.48" stroke-width="1.5" stroke-linecap="round" />
+    <path d="M256 152C306 119 356 103 408 109C460 115 506 142 559 155C617 169 673 166 729 145C784 125 833 97 888 92C944 87 994 107 1040 136" stroke="#67E8F9" stroke-opacity="0.38" stroke-width="1.25" stroke-linecap="round" />
+    <path d="M286 88C327 112 364 133 406 138C453 144 500 130 548 111C597 91 645 72 696 75C750 78 797 102 840 129C885 157 930 183 978 188" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.15" stroke-linecap="round" />
+    <path d="M270 205C318 181 361 170 406 172C453 175 494 193 541 202C592 212 641 209 688 192C736 175 783 148 833 140C884 133 933 144 980 168" stroke="#2DD4BF" stroke-opacity="0.36" stroke-width="1.2" stroke-linecap="round" />
   </g>
 
-  <g>
-    <path d="M156 98C238 76 314 76 396 94C483 113 570 127 658 118C753 108 842 76 1042 100" stroke="#67E8F9" stroke-opacity="0.72" stroke-width="2.2" stroke-linecap="round" />
-    <path d="M144 112C222 96 303 97 385 114C480 135 575 148 671 137C769 127 864 98 1056 119" stroke="#38BDF8" stroke-opacity="0.56" stroke-width="1.8" stroke-linecap="round" />
-    <path d="M182 126C260 145 339 152 420 143C510 133 596 111 687 110C786 108 882 130 1020 156" stroke="#2DD4BF" stroke-opacity="0.60" stroke-width="2" stroke-linecap="round" />
-    <path d="M150 138C231 160 317 171 404 164C500 156 595 133 694 131C796 130 894 151 1058 176" stroke="#5EEAD4" stroke-opacity="0.48" stroke-width="1.6" stroke-linecap="round" />
-    <path d="M176 151C258 133 337 130 416 141C507 153 593 170 684 168C782 166 876 144 1028 126" stroke="#60A5FA" stroke-opacity="0.50" stroke-width="1.9" stroke-linecap="round" />
-    <path d="M164 164C243 182 326 191 411 186C501 180 591 161 685 159C784 156 883 171 1041 194" stroke="#22D3EE" stroke-opacity="0.46" stroke-width="1.7" stroke-linecap="round" />
-    <path d="M190 176C272 160 351 157 433 168C524 180 611 196 699 194C789 191 874 169 1012 149" stroke="#34D399" stroke-opacity="0.44" stroke-width="1.6" stroke-linecap="round" />
-    <path d="M170 188C246 208 329 220 415 216C505 211 593 190 684 186C784 182 884 194 1040 213" stroke="#67E8F9" stroke-opacity="0.38" stroke-width="1.4" stroke-linecap="round" />
-    <path d="M250 103C317 125 377 130 447 127C521 123 592 109 673 96" stroke="#2DD4BF" stroke-opacity="0.40" stroke-width="1.3" stroke-linecap="round" />
-    <path d="M696 198C773 195 845 181 930 154C974 140 1012 128 1051 122" stroke="#38BDF8" stroke-opacity="0.34" stroke-width="1.2" stroke-linecap="round" />
-  </g>
-
-  <g text-anchor="middle">
+  <g text-anchor="middle" filter="url(#textShadow)">
     <text x="600" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="48" font-weight="800" letter-spacing="-0.6" fill="#FFFFFF">Reet Ginotra</text>
     <text x="600" y="196" font-family="'Segoe UI', Arial, sans-serif" font-size="19" font-weight="600" fill="#DBEAFE">Full Stack Developer | AI | Product</text>
   </g>

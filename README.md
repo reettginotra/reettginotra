@@ -1,6 +1,6 @@
 <!-- HERO -->
 <div align="center">
-  <img src="assets/banner.gif" width="100%" alt="Blue to purple profile banner with flowing string effect" />
+  <img src="assets/banner-placeholder.svg" width="100%" alt="Transparent banner with flowing blue and green strings" />
 </div>
 
 <div align="center">
@@ -82,4 +82,4 @@ Have an idea worth building? **Let's talk ->**
 
 ---
 
-&#11088; *Thanks for visiting my profile! Feel free to drop a &#11088; on any of my repositories if they helped you!*
+*Thanks for visiting my profile! Feel free to drop a &#11088; on any of my repositories if they helped you!*
