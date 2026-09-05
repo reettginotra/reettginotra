@@ -1,6 +1,6 @@
 <!-- HERO -->
 <div align="center">
-  <img src="assets/banner.gif" width="100%" alt="Animated greeting banner" />
+  <img src="assets/banner-placeholder.svg" width="100%" alt="Blue and green profile banner" />
   <br /><br />
   <h1>Hi, I am Reet Ginotra &#128075;</h1>
   <p><b>Full Stack Developer</b> building across software, AI, and product.</p>
