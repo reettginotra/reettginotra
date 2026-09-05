@@ -1,32 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="146" viewBox="0 0 620 146" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="114" viewBox="0 0 560 114" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Reet Ginotra hero halo</title>
   <desc id="desc">Centered name with a subtle animated blue to teal halo and subtitle on a transparent background.</desc>
   <defs>
     <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.14">
+      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0.16">
         <animate attributeName="stop-color" values="#7DD3FC;#5EEAD4;#7DD3FC" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="stop-opacity" values="0.14;0.18;0.14" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" values="0.16;0.18;0.16" dur="6s" repeatCount="indefinite" />
       </stop>
-      <stop offset="58%" stop-color="#7DD3FC" stop-opacity="0.08">
+      <stop offset="58%" stop-color="#7DD3FC" stop-opacity="0.09">
         <animate attributeName="stop-color" values="#7DD3FC;#5EEAD4;#7DD3FC" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="stop-opacity" values="0.08;0.12;0.08" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" values="0.09;0.12;0.09" dur="6s" repeatCount="indefinite" />
       </stop>
       <stop offset="100%" stop-color="#7DD3FC" stop-opacity="0">
         <animate attributeName="stop-color" values="#7DD3FC;#5EEAD4;#7DD3FC" dur="6s" repeatCount="indefinite" />
       </stop>
     </radialGradient>
-    <filter id="blur" x="-80%" y="-180%" width="260%" height="360%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="22" />
+    <filter id="blur" x="-88%" y="-210%" width="276%" height="404%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="16" />
     </filter>
   </defs>
-  <g filter="url(#blur)" transform="translate(310 62)">
+  <g filter="url(#blur)" transform="translate(280 52)">
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.96 0.92;1.04 1.08;0.96 0.92" dur="6s" repeatCount="indefinite" />
-      <ellipse cx="0" cy="0" rx="178" ry="48" fill="url(#halo)" opacity="0.9">
+      <ellipse cx="0" cy="0" rx="166" ry="36" fill="url(#halo)" opacity="0.9">
         <animate attributeName="opacity" values="0.82;1;0.82" dur="6s" repeatCount="indefinite" />
       </ellipse>
     </g>
   </g>
-  <text x="310" y="76" text-anchor="middle" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="0.2">Reet Ginotra</text>
-  <text x="310" y="101" text-anchor="middle" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.3">Full stack developer · AI · Product</text>
+  <text x="280" y="58" text-anchor="middle" fill="#0F172A" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="0.2">Reet Ginotra</text>
+  <text x="280" y="82" text-anchor="middle" fill="#475569" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.28">Full stack developer &#183; AI &#183; Product</text>
 </svg>

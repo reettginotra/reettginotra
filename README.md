@@ -1,38 +1,10 @@
 <!-- HERO -->
-<!-- GitHub strips inline style/script from README HTML, so the glow animation lives inside the SVG as SMIL. -->
+<!-- GitHub strips inline CSS/script from README HTML, so the glow and cursor blink are embedded as SVG SMIL animations. -->
+<!-- Theme-specific SVGs are swapped with <picture> so the dark halo is tuned for GitHub's #0d1117 background. -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-halo-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-halo-light.svg">
-    <img src="assets/hero-halo.svg" width="620" alt="Reet Ginotra with a soft animated halo and subtitle" />
-  </picture>
-</div>
-
-<!-- The typing line is self-contained in SVG because GitHub did not reliably render a remote SVG nested inside another SVG. -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-pill-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/tagline-pill-light.svg">
-    <img src="assets/tagline-pill.svg" width="620" alt="Animated feat line about Reet Ginotra's work" />
-  </picture>
-</div>
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chip-problems-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/chip-problems-light.svg">
-    <img src="assets/chip-problems-light.svg" width="300" alt="Solving real problems with code" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chip-stack-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/chip-stack-light.svg">
-    <img src="assets/chip-stack-light.svg" width="176" alt="React Node Python" />
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/chip-pronouns-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="assets/chip-pronouns-light.svg">
-    <img src="assets/chip-pronouns-light.svg" width="88" alt="she her pronouns" />
-  </picture>
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-halo-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/hero-halo-light.svg"><img src="assets/hero-halo.svg" width="560" alt="Reet Ginotra with a soft animated halo and subtitle" /></picture><br />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/tagline-pill-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/tagline-pill-light.svg"><img src="assets/tagline-pill.svg" width="540" alt="Animated feat line about Reet Ginotra's work" /></picture><br />
+  <picture><source media="(prefers-color-scheme: dark)" srcset="assets/chips-row-dark.svg"><source media="(prefers-color-scheme: light)" srcset="assets/chips-row-light.svg"><img src="assets/chips-row.svg" width="560" alt="Focus, stack, and pronoun badges" /></picture>
 </div>
 
 ---

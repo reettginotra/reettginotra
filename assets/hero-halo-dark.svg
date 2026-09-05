@@ -1,35 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="146" viewBox="0 0 620 146" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="114" viewBox="0 0 560 114" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Reet Ginotra hero halo</title>
-  <desc id="desc">Centered name with a subtle animated blue to teal halo and subtitle on a transparent background.</desc>
+  <desc id="desc">Centered name with a brighter animated blue to teal halo and subtitle on a transparent background for GitHub dark mode.</desc>
   <defs>
     <radialGradient id="halo" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#7DD3FC" stop-opacity="0">
-        <animate attributeName="stop-color" values="#7DD3FC;#5EEAD4;#7DD3FC" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="stop-opacity" values="0;0;0" dur="6s" repeatCount="indefinite" />
+      <stop offset="0%" stop-color="#91DDFF" stop-opacity="0.32">
+        <animate attributeName="stop-color" values="#91DDFF;#79F4E3;#91DDFF" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" values="0.32;0.35;0.32" dur="6s" repeatCount="indefinite" />
       </stop>
-      <stop offset="58%" stop-color="#7DD3FC" stop-opacity="0">
-        <animate attributeName="stop-color" values="#7DD3FC;#5EEAD4;#7DD3FC" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="stop-opacity" values="0;0;0" dur="6s" repeatCount="indefinite" />
+      <stop offset="58%" stop-color="#91DDFF" stop-opacity="0.18">
+        <animate attributeName="stop-color" values="#91DDFF;#79F4E3;#91DDFF" dur="6s" repeatCount="indefinite" />
+        <animate attributeName="stop-opacity" values="0.18;0.22;0.18" dur="6s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#7DD3FC" stop-opacity="0">
-        <animate attributeName="stop-color" values="#7DD3FC;#5EEAD4;#7DD3FC" dur="6s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#91DDFF" stop-opacity="0">
+        <animate attributeName="stop-color" values="#91DDFF;#79F4E3;#91DDFF" dur="6s" repeatCount="indefinite" />
       </stop>
     </radialGradient>
-    <filter id="blur" x="-90%" y="-200%" width="280%" height="390%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="24" />
+    <filter id="blur" x="-92%" y="-218%" width="284%" height="416%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="16" />
     </filter>
   </defs>
-  <g filter="url(#blur)" transform="translate(310 62)">
+  <g filter="url(#blur)" transform="translate(280 54)">
     <g>
       <animateTransform attributeName="transform" type="scale" values="0.96 0.92;1.04 1.08;0.96 0.92" dur="6s" repeatCount="indefinite" />
-      <ellipse cx="0" cy="0" rx="178" ry="48" fill="url(#halo)" opacity="0">
-        <animate attributeName="opacity" values="0;0;0" dur="6s" repeatCount="indefinite" />
+      <ellipse cx="0" cy="0" rx="174" ry="38" fill="url(#halo)" opacity="0.92">
+        <animate attributeName="opacity" values="0.84;0.96;0.84" dur="6s" repeatCount="indefinite" />
       </ellipse>
-      <ellipse cx="0" cy="0" rx="112" ry="24" fill="url(#halo)" opacity="0">
-        <animate attributeName="opacity" values="0;0;0" dur="6s" repeatCount="indefinite" />
+      <ellipse cx="0" cy="0" rx="116" ry="24" fill="url(#halo)" opacity="0.46">
+        <animate attributeName="opacity" values="0.38;0.52;0.38" dur="6s" repeatCount="indefinite" />
       </ellipse>
     </g>
   </g>
-  <text x="310" y="76" text-anchor="middle" fill="#E6EDF3" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="0.2">Reet Ginotra</text>
-  <text x="310" y="101" text-anchor="middle" fill="#9FB0C2" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.3">Full stack developer · AI · Product</text>
+  <text x="280" y="58" text-anchor="middle" fill="#E6EDF3" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="31" font-weight="700" letter-spacing="0.2">Reet Ginotra</text>
+  <text x="280" y="82" text-anchor="middle" fill="#A6B8CC" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif" font-size="13.5" font-weight="500" letter-spacing="0.28">Full stack developer &#183; AI &#183; Product</text>
 </svg>
