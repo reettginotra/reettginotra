@@ -4,16 +4,16 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/hero-halo-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/hero-halo-light.svg">
-    <img src="assets/hero-halo.svg" width="720" alt="Reet Ginotra with a soft animated halo and subtitle" />
+    <img src="assets/hero-halo.svg" width="620" alt="Reet Ginotra with a soft animated halo and subtitle" />
   </picture>
 </div>
 
-<!-- GitHub supports theme-switched images via picture/source, so text and strokes stay readable in both themes. -->
+<!-- The typing line is self-contained in SVG because GitHub did not reliably render a remote SVG nested inside another SVG. -->
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-pill-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/tagline-pill-light.svg">
-    <img src="assets/tagline-pill.svg" width="720" alt="Animated feat line about Reet Ginotra's work" />
+    <img src="assets/tagline-pill.svg" width="620" alt="Animated feat line about Reet Ginotra's work" />
   </picture>
 </div>
 
@@ -21,17 +21,17 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/chip-problems-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/chip-problems-light.svg">
-    <img src="assets/chip-problems-light.svg" width="316" alt="Solving real problems with code" />
+    <img src="assets/chip-problems-light.svg" width="300" alt="Solving real problems with code" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/chip-stack-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/chip-stack-light.svg">
-    <img src="assets/chip-stack-light.svg" width="184" alt="React Node Python" />
+    <img src="assets/chip-stack-light.svg" width="176" alt="React Node Python" />
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/chip-pronouns-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="assets/chip-pronouns-light.svg">
-    <img src="assets/chip-pronouns-light.svg" width="92" alt="she her pronouns" />
+    <img src="assets/chip-pronouns-light.svg" width="88" alt="she her pronouns" />
   </picture>
 </div>
 

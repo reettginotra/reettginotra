@@ -1,15 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="58" viewBox="0 0 720 58" fill="none" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="52" viewBox="0 0 620 52" fill="none" role="img" aria-labelledby="title desc">
   <title id="title">Animated feat tagline</title>
-  <desc id="desc">Outlined pill with a teal feat label and animated typing lines.</desc>
-  <rect x="1" y="1" width="718" height="56" rx="28" stroke="#CBD5E1" stroke-opacity="0.82" stroke-width="1.5" />
-  <text x="28" y="35" fill="#14B8A6" font-family="Fira Code, Cascadia Code, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600">feat:</text>
-  <line x1="78" y1="14" x2="78" y2="44" stroke="#CBD5E1" stroke-opacity="0.62" stroke-width="1.2" />
-  <image
-    x="94"
-    y="16"
-    width="602"
-    height="26"
-    preserveAspectRatio="xMinYMid meet"
-    href="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=15&amp;duration=3600&amp;pause=1200&amp;color=0F172A&amp;vCenter=true&amp;width=602&amp;height=24&amp;lines=love+building+fintech+tools;turning+ideas+into+shipped+products;open+to+weird%2C+ambitious+problems;currently+deep+in+AI+%2B+product+work"
-  />
+  <desc id="desc">Outlined pill with a teal feat label and an animated typing-style rotation of four lines.</desc>
+  <rect x="1" y="1" width="618" height="50" rx="25" stroke="#CBD5E1" stroke-opacity="0.82" stroke-width="1.5" />
+  <text x="30" y="32" fill="#14B8A6" font-family="Fira Code, Cascadia Code, SFMono-Regular, Consolas, monospace" font-size="14.5" font-weight="600">feat:</text>
+  <line x1="81" y1="13" x2="81" y2="39" stroke="#CBD5E1" stroke-opacity="0.62" stroke-width="1.2" />
+  <defs>
+    <clipPath id="clip-1">
+      <rect x="97" y="14" width="0" height="22">
+        <animate attributeName="width" values="0;243;243;0;0;0" keyTimes="0;0.09;0.17;0.23;0.25;1" dur="20s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip-2">
+      <rect x="97" y="14" width="0" height="22">
+        <animate attributeName="width" values="0;0;315;315;0;0;0" keyTimes="0;0.25;0.34;0.42;0.48;0.5;1" dur="20s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip-3">
+      <rect x="97" y="14" width="0" height="22">
+        <animate attributeName="width" values="0;0;297;297;0;0;0" keyTimes="0;0.5;0.59;0.67;0.73;0.75;1" dur="20s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+    <clipPath id="clip-4">
+      <rect x="97" y="14" width="0" height="22">
+        <animate attributeName="width" values="0;0;315;315;0;0" keyTimes="0;0.75;0.84;0.92;0.98;1" dur="20s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+  </defs>
+  <g fill="#0F172A" font-family="Fira Code, Cascadia Code, SFMono-Regular, Consolas, monospace" font-size="14.5" font-weight="500">
+    <text x="97" y="31.5" opacity="0" clip-path="url(#clip-1)">
+      love building fintech tools
+      <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.23;0.24;1" dur="20s" repeatCount="indefinite" />
+    </text>
+    <text x="97" y="31.5" opacity="0" clip-path="url(#clip-2)">
+      turning ideas into shipped products
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.25;0.26;0.48;0.5;1" dur="20s" repeatCount="indefinite" />
+    </text>
+    <text x="97" y="31.5" opacity="0" clip-path="url(#clip-3)">
+      open to weird, ambitious problems
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5;0.51;0.73;0.75;1" dur="20s" repeatCount="indefinite" />
+    </text>
+    <text x="97" y="31.5" opacity="0" clip-path="url(#clip-4)">
+      currently deep in AI + product work
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.75;0.76;0.98;0.99;1" dur="20s" repeatCount="indefinite" />
+    </text>
+  </g>
 </svg>
