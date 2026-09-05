@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="58" viewBox="0 0 720 58" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Animated feat tagline</title>
+  <desc id="desc">Outlined pill with a teal feat label and animated typing lines.</desc>
+  <rect x="1" y="1" width="718" height="56" rx="28" stroke="#CBD5E1" stroke-opacity="0.82" stroke-width="1.5" />
+  <text x="28" y="35" fill="#14B8A6" font-family="Fira Code, Cascadia Code, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="600">feat:</text>
+  <line x1="78" y1="14" x2="78" y2="44" stroke="#CBD5E1" stroke-opacity="0.62" stroke-width="1.2" />
+  <image
+    x="94"
+    y="16"
+    width="602"
+    height="26"
+    preserveAspectRatio="xMinYMid meet"
+    href="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=500&amp;size=15&amp;duration=3600&amp;pause=1200&amp;color=0F172A&amp;vCenter=true&amp;width=602&amp;height=24&amp;lines=love+building+fintech+tools;turning+ideas+into+shipped+products;open+to+weird%2C+ambitious+problems;currently+deep+in+AI+%2B+product+work"
+  />
+</svg>

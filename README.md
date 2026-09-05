@@ -1,10 +1,38 @@
 <!-- HERO -->
+<!-- GitHub strips inline style/script from README HTML, so the glow animation lives inside the SVG as SMIL. -->
 <div align="center">
-  <img src="assets/banner.gif" width="100%" alt="Blue and purple profile banner for Reet Ginotra" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-halo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/hero-halo-light.svg">
+    <img src="assets/hero-halo.svg" width="720" alt="Reet Ginotra with a soft animated halo and subtitle" />
+  </picture>
+</div>
+
+<!-- GitHub supports theme-switched images via picture/source, so text and strokes stay readable in both themes. -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/tagline-pill-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/tagline-pill-light.svg">
+    <img src="assets/tagline-pill.svg" width="720" alt="Animated feat line about Reet Ginotra's work" />
+  </picture>
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=0EA5E9&center=true&vCenter=true&width=820&lines=I+build+across+software+engineering%2C+AI%2C+and+product;Creating+tools+that+solve+real+problems+and+get+used;Open+to+fintech%2C+AI+products%2C+and+anything+worth+building" alt="Typing introduction" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/chip-problems-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/chip-problems-light.svg">
+    <img src="assets/chip-problems-light.svg" width="316" alt="Solving real problems with code" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/chip-stack-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/chip-stack-light.svg">
+    <img src="assets/chip-stack-light.svg" width="184" alt="React Node Python" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/chip-pronouns-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="assets/chip-pronouns-light.svg">
+    <img src="assets/chip-pronouns-light.svg" width="92" alt="she her pronouns" />
+  </picture>
 </div>
 
 ---
