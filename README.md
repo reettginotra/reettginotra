@@ -1,26 +1,39 @@
 <!-- HERO -->
-<!-- EDIT: Update the banner path, display name, or one-line tagline here. Do not change assets/banner.gif unless you intentionally replace the approved banner asset. -->
 <div align="center">
-  <img src="assets/banner.gif" width="100%" alt="Animated greeting banner" />
-  <br /><br />
-  <h1>Hi, I am Reet Ginotra &#128075;</h1>
-  <p><b>Web &amp; AI/ML Developer</b></p>
-  <p>Welcome to my little corner of GitHub.</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=200&section=header&text=Reet%20Ginotra&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Web%20%26%20AI%2FML%20Developer&descAlignY=58&descSize=18" alt="Header banner" />
+</div>
+
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF6EC7&center=true&vCenter=true&width=600&lines=Building+practical+web+projects;Turning+AI%2FML+ideas+into+usable+products;Learning%2C+shipping%2C+and+improving+every+day" alt="Typing introduction" />
+  </a>
+</div>
+
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=reettginotra&label=Profile%20Views&color=ff6ec7&style=for-the-badge" alt="Profile views" />
+  <img src="https://img.shields.io/badge/Focus-Web%20%26%20AI%2FML%20Development-ff6ec7?style=for-the-badge" alt="Focus area" />
 </div>
 
 ---
 
-<!-- INTRO -->
-<!-- EDIT: Keep this section short, warm, and a little selective. Let the projects say the rest. -->
-## A Little About Me
+## About Me
 
- BTech CSE Student | Web &amp; AI/ML Developer. &#128161; Passionate about building practical, real-world tech projects. I enjoy turning ideas into things people can actually use, especially where web, backend, and AI come together, and I would rather let the work here do most of the talking.
+BTech CSE student and builder who enjoys working where **web development**, **backend systems**, and **AI/ML** meet. I like turning ideas into practical, real-world projects people can actually use, and I am always looking to grow by shipping better work with every build.
 
 ---
 
-<!-- TECH STACK -->
-<!-- EDIT: Add or remove badges only within the categories below. Keep the categories stable so this section stays easy to maintain. -->
-## Tech Stack
+## Connect With Me
+
+<div align="center">
+  <a href="https://github.com/reettginotra"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/reet-ginotra-8074002b9/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:reetginotraa@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://leetcode.com/u/disc_reet/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+</div>
+
+---
+
+## Skills
 
 **Languages**
 
@@ -67,10 +80,8 @@
 
 ---
 
-<!-- CONNECT -->
-<!-- EDIT: Replace links below with your final public URLs. Keep this section simple, readable, and easy to update. -->
-## Connect With Me
+## GitHub Statistics
 
 <div align="center">
-  <a href="https://github.com/reettginotra"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a><a href="https://www.linkedin.com/in/reet-ginotra-8074002b9/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a><a href="mailto:reetginotraa@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a><a href="https://leetcode.com/u/disc_reet/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <img src="https://streak-stats.demolab.com?user=reettginotra&theme=radical&hide_border=true&stroke=FF6EC7&ring=FF6EC7&fire=FF6EC7&currStreakLabel=FF6EC7" alt="GitHub streak stats" />
 </div>
