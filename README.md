@@ -11,9 +11,9 @@
 
 ## About Me
 
-I work across **software engineering**, **AI**, and **product**, building tools that solve real problems and actually get used. I enjoy shaping ideas into clean, practical experiences, especially where full stack systems and intelligent products come together.
+I work across **software engineering**, **AI**, and **product**, turning ideas into practical tools people actually use. I am especially interested in **fintech**, building smarter financial products and simpler, more seamless experiences.
 
-Open to conversations around **fintech**, **AI products**, or anything genuinely worth building. Let's connect.
+Have an idea worth building? **Let's talk ->**
 
 <div align="center">
   <a href="https://github.com/reettginotra"><img src="https://img.shields.io/badge/GitHub-0EA5E9?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
