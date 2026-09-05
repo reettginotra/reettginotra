@@ -1,15 +1,10 @@
 <!-- HERO -->
 <div align="center">
-  <img src="assets/banner-placeholder.svg" width="100%" alt="Blue and green profile banner" />
-  <br /><br />
-  <h1>Hi, I am Reet Ginotra &#128075;</h1>
-  <p><b>Full Stack Developer</b> building across software, AI, and product.</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=gradient&customColorList=14,19,24,25,30&text=Reet%20Ginotra&fontColor=ffffff&fontSize=54&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%7C%20AI%20%7C%20Product&descAlignY=58&descSize=18" width="100%" alt="Dynamic blue and green profile banner" />
 </div>
 
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=0EA5E9&center=true&vCenter=true&width=820&lines=I+build+across+software+engineering%2C+AI%2C+and+product;Creating+tools+that+solve+real+problems+and+get+used;Open+to+fintech%2C+AI+products%2C+and+anything+worth+building" alt="Typing introduction" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3200&pause=1000&color=0EA5E9&center=true&vCenter=true&width=820&lines=I+build+across+software+engineering%2C+AI%2C+and+product;Creating+tools+that+solve+real+problems+and+get+used;Open+to+fintech%2C+AI+products%2C+and+anything+worth+building" alt="Typing introduction" />
 </div>
 
 ---
@@ -87,4 +82,4 @@ Open to conversations around **fintech**, **AI products**, or anything genuinely
 
 ---
 
-⭐️ *Thanks for visiting my profile! Feel free to drop a ⭐ on any of my repositories if they helped you!*
+&#11088; *Thanks for visiting my profile! Feel free to drop a &#11088; on any of my repositories if they helped you!*
