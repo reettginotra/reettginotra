@@ -84,3 +84,7 @@ Open to conversations around **fintech**, **AI products**, or anything genuinely
   <img src="https://komarev.com/ghpvc/?username=reettginotra&label=Profile%20Views&color=0ea5e9&style=for-the-badge" alt="Profile views" />
   <img src="https://img.shields.io/badge/Focus-Full%20Stack%20Development-14B8A6?style=for-the-badge" alt="Focus area" />
 </div>
+
+---
+
+⭐️ *Thanks for visiting my profile! Feel free to drop a ⭐ on any of my repositories if they helped you!*
