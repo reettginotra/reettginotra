@@ -9,11 +9,15 @@ const outerRectX = 0.75;
 const outerRectY = 0.75;
 const outerRectHeight = 33;
 const outerRectRx = 16.5;
+const pillCenterX = svgWidth / 2;
 const rightPadding = 16.05;
 const typeTime = 2;
 const pauseTime = 2;
 const deleteTime = 1;
 const lineDuration = typeTime + pauseTime + deleteTime;
+const featInset = 15.25;
+const dividerInset = 51.25;
+const textInset = 65.25;
 
 const lines = [
   "love building fintech tools",
@@ -21,11 +25,25 @@ const lines = [
   "open to weird, ambitious problems",
   "currently deep in AI + product work"
 ];
-const maxLineWidth = Math.max(...lines.map((line) => line.length * charWidth));
-const contentShiftFactor = rightPadding / maxLineWidth;
 
-function getContentShift(visibleWidth) {
-  return visibleWidth * contentShiftFactor;
+function getOuterWidth(visibleWidth) {
+  return textInset + rightPadding + visibleWidth;
+}
+
+function getOuterX(visibleWidth) {
+  return pillCenterX - getOuterWidth(visibleWidth) / 2;
+}
+
+function getFeatX(visibleWidth) {
+  return getOuterX(visibleWidth) + featInset;
+}
+
+function getDividerX(visibleWidth) {
+  return getOuterX(visibleWidth) + dividerInset;
+}
+
+function getTextX(visibleWidth) {
+  return getOuterX(visibleWidth) + textInset;
 }
 
 function generateFrames(lineLength) {
@@ -118,11 +136,19 @@ function generateLoopFrames() {
 }
 
 function generateOuterWidthAnimation() {
-  const emptyWidth = textStartX + rightPadding - outerRectX;
   const { widths, keyTimes } = generateLoopFrames();
 
   return formatAnimation(
-    widths.map((width) => emptyWidth + width),
+    widths.map((width) => getOuterWidth(width)),
+    keyTimes
+  );
+}
+
+function generateOuterXAnimation() {
+  const { widths, keyTimes } = generateLoopFrames();
+
+  return formatAnimation(
+    widths.map((width) => getOuterX(width)),
     keyTimes
   );
 }
@@ -136,13 +162,14 @@ function generateSvg(theme) {
   const textFill = isDark ? "#E6EDF3" : "#0F172A";
   
   const { widths: loopWidths, keyTimes: loopKeyTimes } = generateLoopFrames();
+  const { values: outerXValues, keyTimes: outerXKeyTimes } = generateOuterXAnimation();
   const { values: outerWidthValues, keyTimes: outerWidthKeyTimes } = generateOuterWidthAnimation();
   const { values: featAnimationValues, keyTimes: featAnimationKeyTimes } = formatAnimation(
-    loopWidths.map((width) => 16 + getContentShift(width)),
+    loopWidths.map((width) => getFeatX(width)),
     loopKeyTimes
   );
   const { values: dividerAnimationValues, keyTimes: dividerAnimationKeyTimes } = formatAnimation(
-    loopWidths.map((width) => 52 + getContentShift(width)),
+    loopWidths.map((width) => getDividerX(width)),
     loopKeyTimes
   );
   
@@ -155,9 +182,9 @@ function generateSvg(theme) {
   lines.forEach((line, index) => {
     const { widths, keyTimes } = generateFrames(line.length);
     const { values, keyTimes: localKeyTimes } = formatAnimation(widths, keyTimes);
-    const clipXValues = widths.map((width) => textStartX + getContentShift(width));
+    const clipXValues = widths.map((width) => getTextX(width));
     const textXValues = clipXValues;
-    const cursorValues = widths.map((width) => textStartX + getContentShift(width) + width);
+    const cursorValues = widths.map((width) => getTextX(width) + width);
     const {
       values: clipXAnimationValues
     } = formatAnimation(clipXValues, keyTimes);
@@ -201,14 +228,15 @@ function generateSvg(theme) {
   <title id="title">Animated feat tagline</title>
   <desc id="desc">Outlined pill with a teal feat label and a typing-style rotation of four lines.</desc>
   ${defs}
-  <rect x="${outerRectX}" y="${outerRectY}" width="${(textStartX + rightPadding - outerRectX).toFixed(2)}" height="${outerRectHeight}" rx="${outerRectRx}" stroke="${rectStroke}" stroke-opacity="${rectStrokeOp}" stroke-width="1.5" fill="none">
+  <rect x="${getOuterX(0).toFixed(2)}" y="${outerRectY}" width="${getOuterWidth(0).toFixed(2)}" height="${outerRectHeight}" rx="${outerRectRx}" stroke="${rectStroke}" stroke-opacity="${rectStrokeOp}" stroke-width="1.5" fill="none">
+    <animate attributeName="x" dur="${durTotal}s" repeatCount="indefinite" calcMode="discrete" values="${outerXValues}" keyTimes="${outerXKeyTimes}" />
     <animate attributeName="width" dur="${durTotal}s" repeatCount="indefinite" calcMode="discrete" values="${outerWidthValues}" keyTimes="${outerWidthKeyTimes}" />
   </rect>
-  <text x="16" y="22.7" fill="${featFill}" font-family="Fira Code, Cascadia Code, SFMono-Regular, Consolas, monospace" font-size="${fontSize}" font-weight="600">
+  <text x="${getFeatX(0).toFixed(2)}" y="22.7" fill="${featFill}" font-family="Fira Code, Cascadia Code, SFMono-Regular, Consolas, monospace" font-size="${fontSize}" font-weight="600">
     <animate attributeName="x" dur="${durTotal}s" repeatCount="indefinite" calcMode="discrete" values="${featAnimationValues}" keyTimes="${featAnimationKeyTimes}" />
     feat:
   </text>
-  <line x1="52" y1="8" x2="52" y2="26.5" stroke="${rectStroke}" stroke-opacity="${rectStrokeOp}" stroke-width="1.2">
+  <line x1="${getDividerX(0).toFixed(2)}" y1="8" x2="${getDividerX(0).toFixed(2)}" y2="26.5" stroke="${rectStroke}" stroke-opacity="${rectStrokeOp}" stroke-width="1.2">
     <animate attributeName="x1" dur="${durTotal}s" repeatCount="indefinite" calcMode="discrete" values="${dividerAnimationValues}" keyTimes="${dividerAnimationKeyTimes}" />
     <animate attributeName="x2" dur="${durTotal}s" repeatCount="indefinite" calcMode="discrete" values="${dividerAnimationValues}" keyTimes="${dividerAnimationKeyTimes}" />
   </line>
